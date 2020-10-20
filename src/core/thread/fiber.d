@@ -1057,7 +1057,7 @@ private:
             }
         }
         else
-            static assert(false);
+            static assert(false, "Мы посовещались всем чатом и пришли к выводу, что камент тут не нужен");
 
         m_pmem = null;
         m_ctxt = null;
